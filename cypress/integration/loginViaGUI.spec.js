@@ -1,6 +1,6 @@
 it('successfully logs in via GUI', () => {
-  cy.intercept('GET', `${Cypress.env('apiUrl')}/models?userId=*`).as('getUserModels')
+  cy.intercept('GET', `${Cypress.env('apiUrl')}/Autenticacao/Ldap`).as('getUserModels')
   cy.loginViaGUI()
   cy.wait('@getUserModels')
-  cy.contains('h2', 'Models').should('be.visible')
+  cy.contains('a','Liana') 
 })

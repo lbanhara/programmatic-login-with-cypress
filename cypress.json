@@ -1,8 +1,13 @@
 {
-  "baseUrl": "http://localhost:9000",
+  "baseUrl": "https://gdp.prodam.sp.gov.br/Autenticacao/Ldap",
   "env": {
-    "apiUrl": "http://localhost:3000"
+    "apiUrl": "https://gdp.prodam.sp.gov.br",
+    "userEmail": "p017250",
+    "userPassword": "Qa123456!"
   },
+
+
   "fixturesFolder": false,
   "pluginsFile": false
+
 }

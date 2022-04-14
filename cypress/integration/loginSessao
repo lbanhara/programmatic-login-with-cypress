@@ -1,0 +1,17 @@
+
+/// <reference types="Cypress" />
+
+describe('User account page', () => {
+  beforeEach(() => {
+    cy.login('P017250', 'Qa123456')
+  })
+
+  it('should actually be accessible', () => {
+    cy.visit('/home')
+  })
+
+  it('should have the correct page title', () => {
+    cy.visit('/home')
+    cy.title().should('have.text', 'NGDP | Painel de Comunicação')
+  })
+})
