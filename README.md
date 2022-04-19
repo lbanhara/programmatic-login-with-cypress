@@ -1,4 +1,4 @@
-# programmatic-login-with-cypress 
+# programmatic-login-with-cypress  ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lbanhara/programmatic-login-with-cypress/End-to-end%20tests%20%F0%9F%A7%AA)
 
 Sample project to demonstrate how to programmatically log in using Cypress.
 
