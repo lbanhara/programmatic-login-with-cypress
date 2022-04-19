@@ -16,7 +16,7 @@ Cypress.Commands.add('loginViaAPI', (
 })
 
 Cypress.Commands.add('loginViaGUI', 
-   (email = Cypress.env('userEmail'),
+   (email = Cypress.env('userId'),
     password = Cypress.env('userPassword')) => {
   
     cy.visit('/')
