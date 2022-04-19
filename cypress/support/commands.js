@@ -1,6 +1,6 @@
 
 Cypress.Commands.add('loginViaAPI', (
-  email = Cypress.env('userEmail'),
+  email = Cypress.env('userId'),
   password = Cypress.env('userPassword')
 ) => {
   cy.request('POST', `${Cypress.env('apiUrl')}/home`, {
