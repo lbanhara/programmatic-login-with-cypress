@@ -2,12 +2,13 @@
   "baseUrl": "https://gdp.prodam.sp.gov.br/Autenticacao/Ldap",
   "env": {
     "apiUrl": "https://gdp.prodam.sp.gov.br",
-    "userEmail": "p017250",
+    "userId": "p017250",
     "userPassword": "Qa123456!"
   },
 
 
   "fixturesFolder": false,
-  "pluginsFile": false
+  "pluginsFile": false,
+  "experimentalSessionSupport":true
 
 }
